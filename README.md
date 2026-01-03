@@ -13,6 +13,7 @@ and balance display using a seven-segment display.
 - Seven-segment display interfacing
 
 ## Modules
+- vending_machine.v - The top module of the project
 - main.v – Vending machine control logic
 - bin_to_bcd.v – Binary to BCD converter
 - seven_seg_driver.v – Display driver
