@@ -3,7 +3,7 @@ module vending_machine(
   input [3:0] b_in,
   input [1:0] sel,
   output [6:0] seg,
-  output [3:0] an,
+	output [7:0] an,
   output yes,no
 );
 
@@ -21,7 +21,7 @@ module vending_machine(
 		);
 
   
-    bin_to_bcd_4bit bcd ( 
+    bin_to_bcd bcd ( 
       .bin(balance),
     	.tens(tens),
     	.ones(ones)
