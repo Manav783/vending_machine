@@ -1,10 +1,10 @@
 module vending_machine(
-  input clk, rst, buy, load,
-  input [3:0] b_in,
-  input [1:0] sel,
-  output [6:0] seg,
-	output [7:0] an,
-  output yes,no
+	  	input clk, rst, buy, load,
+	  	input [3:0] b_in,
+	  	input [1:0] sel,
+	  	output [6:0] seg,
+		output [7:0] an,
+	  	output yes,no
 );
 
 	wire [3:0] balance, tens, ones;
