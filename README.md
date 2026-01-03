@@ -19,7 +19,7 @@ and balance display using a seven-segment display.
 - main_tb.v – Testbench
 
 ## Simulation
-Simulated using EDA Playground / ModelSim.
+Simulated using Xlinix Vivado.
 
 ## Documentation
 Detailed report available in: `Report.pdf`
