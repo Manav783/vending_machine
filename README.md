@@ -19,8 +19,8 @@ and balance display using a seven-segment display.
 - seven_seg_driver.v – Display driver
 - main_tb.v – Testbench
 
-## Simulation
-Simulated using Xlinix Vivado.
+## Simulation 
+Simulated using Xlinix Vivado and implemented on Nexys 4 DDR
 
 ## Documentation
 Detailed report available in: `Report.pdf`
